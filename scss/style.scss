@@ -244,6 +244,13 @@ main {
           margin-bottom: -27px;
           margin-top: 10%;
         }
+        .hidden {
+          display: none;
+          color: #a9a9a9;
+          font-family: Roboto;
+          font-size: 11px;
+          font-weight: 300;
+        }
       }
     }
     .ba-pricing__col:hover {
@@ -257,7 +264,12 @@ main {
       .pink__btn {
         background-color: #fd8d7b;
         box-shadow: 2px 4px 18px rgba(253, 141, 123, 0.31);
-        margin-bottom: 37px;
+        margin-bottom: 7px;
+        position: relative;
+      }
+      .hidden {
+        display: block;
+        padding-bottom: 7px;
       }
     }
   }
